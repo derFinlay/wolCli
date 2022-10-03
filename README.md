@@ -19,7 +19,9 @@ python3 wol.py [YOUR_MAC_ADDRESS]
 
 ### as a command:
 
+```py
 python3 wol.py [YOUR_MAC_ADDRESS]
+```
 
 ### as a module in another file
 
