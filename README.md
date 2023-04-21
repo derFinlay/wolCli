@@ -6,9 +6,9 @@ Python CLI for magic packet creation and sending WOL packets
 
 ```py
 # Clone this repository
-git clone https://github.com/stevenaubertin/wol.py
+git clone https://github.com/derFinlay/wolCli
 # Go into the repository
-cd wol.py
+cd wolCli
 # Run the app
 python3 wol.py [YOUR_MAC_ADDRESS]
 ```
