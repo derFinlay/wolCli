@@ -23,7 +23,10 @@ def create_magic_packet(MAC_ADDRESS) -> bytes:
     return Message
 
 if '__main__' == __name__:
-    MAC = sys.argv[1] #get mac adress from second cli argument
+    try:
+        MAC = sys.argv[1] #get mac adress from second cli argument
+    except:
+        return print("Please provide mac address")
     MAC = MAC.replace("-", "").replace(":", "")
     if len(MAC) < 12:
         raise ValueError("Invalid MAC address format")
